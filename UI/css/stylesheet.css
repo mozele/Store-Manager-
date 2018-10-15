@@ -1,0 +1,241 @@
+/*Global usage*/
+*{
+    list-style: none;
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.11);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+/*container*/
+.container{
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+/*unordered lists*/
+ul{
+    text-decoration: none;
+}
+/*ordered lists*/
+li{
+    text-decoration: none;
+    display: inline;
+}
+/*anchor tags*/
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: darkgray;
+    overflow: hidden;
+    width: 100%;
+    color: wheat;
+    text-align: center;
+    font-size: 30px;   
+    height: 80px; 
+}
+
+
+/*index page*/
+
+.login-container form{
+    border: 3px solid darkgrey;
+    width: 40%;
+    padding: 30px;
+    margin: 100px 350px;
+}
+.login-container form h2{
+    text-align: center;
+}
+.login-container input{
+    width: 100%;
+    padding: 10px 18px;
+    display:inline-block;
+    box-sizing: border-box;
+    border: solid black 1px;
+}
+.login-container label{
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-container form button{
+    width: 100%;
+    padding: 10px 18px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    margin: 8px 0;
+    font-size: 20px;
+}
+.login-container form  a{
+    text-align: center;
+    padding-left: 150px;
+}
+
+/*Inventory page*/
+.invent-head{
+    background-color: darkgray;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+.invent-head a{
+    float: left;
+    padding: 10px 30px 10px 30px;
+    color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+
+}
+.logout{
+    float: right;
+    color: black;
+
+}
+.invent-head p{
+    float: right;
+    color:white;
+    margin: 0 60px 5px 0;
+    font-size: 30px;
+    padding-bottom: 5px;    
+       
+}
+.invent-head p a{
+    text-transform: capitalize;
+    color: red;
+    
+    font-weight: 30px;
+}
+.heading{
+    width: 100%;
+}
+.table-class{
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+
+#invent-table{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#invent-table th{
+    padding: 20px;
+    background: rgb(221, 177, 177);
+}
+#invent-table td{
+    padding: 20px;
+    background: lightseagreen;
+}
+
+#search-table{
+    width: 100%;
+    margin-left: 21px;
+}
+#invent-search{
+    width:75%;
+    height: 35px;
+    text-align: center;
+}
+#search-table button{
+    width: 17%;
+    height: 45px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+/*Cart page*/
+#cart-div{
+    padding-top: 50px;
+}
+
+#cart-no{
+    width: 60%;
+    height: 30px;
+    text-align: center;
+}
+
+#cart-actions{
+    width: 60%;
+    display: block;
+    float: right;
+   
+
+}
+#btn-create-sale{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 2px 6px;
+}
+
+
+#btn-empty-cart{
+width: 20%;
+height: 40px;
+border-radius: 10px;
+background:red;
+color: white;
+padding:  5px;
+margin: 2px 6px;
+
+}
+
+/*Profile.html*/
+
+
+
+/*product-mgt.html*/
+.btn-create-pdt{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 2px 6px;
+}
+.btn-del-pdt{ width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+    margin: 2px 6px;
+
+
+}
+.btn-edit-pdt{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    padding: 5px;
+    margin: 2px 6px;
+    
+}
+/*admin pages*/

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <title>Inventory</title>
+</head>
+<body>
+    <header class="invent-head"> 
+        <nav>
+           
+                <li><a href="att-invent.html">Inventory</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="employees.html">Attendants</a></li>
+                <li><a href="product-mgt.html">Manage Products</a></li>
+                <li><a href="add-account.html">Create Profile</a></li>
+                <p>Admin</p>
+        </nav>
+        <p><a href="index.html">LOG OUT</a></p>
+    </header>
+    <main>
+        <div class="table-class">
+            
+            <div id="search-table">
+                    <input type="text" id="invent-search"  placeholder="Search products">
+                    <button type="submit">Search</button>
+            </div>
+            
+                
+            <table id="invent-table">
+                  <tr>
+                    <th>Product</th>
+                    <th>Catergory</th>
+                    <th>Price</th>
+                    <th>Quantity </th>
+                    <th>Minimum Qunanity</th>
+                    <th>Add to cart</th>
+                  </tr>
+                  <tr>
+                    <td>Sugar</td>
+                    <td>Food</td>
+                    <td>4000</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td><a href="cart.html">Add to cart</a></td>
+                  </tr>
+                  <tr>
+                        <td>Soda</td>
+                        <td>Beverage</td>
+                        <td>1000</td>
+                        <td>50</td>
+                        <td>10</td>
+                        <td><a href="cart.html">Add to cart</a></td>
+                  </tr>
+                  <tr>
+                        <td>Book</td>
+                        <td>Scholastic Materials</td>
+                        <td>300</td>
+                        <td>20</td>
+                        <td>5</td>
+                        <td><a href="cart.html">Add to cart</a></td>
+                  <tr>
+                </table>
+                
+        </div>
+    </main>
+    <footer>
+        &copy; Store Manger 2018
+        </footer>
+</body>
+</html>

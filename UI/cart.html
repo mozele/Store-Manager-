@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header class="invent-head">
+        <nav>
+            <ul>
+                <li><a href="att-invent.html">Inventory</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="att-sales.html">My Sales</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <p>Attendant</p>
+            </ul>
+        </nav>
+        
+        <p><a href="index.html">LOG OUT</a></p>    
+    </header>
+    <div id="cart-div">
+    <table id="invent-table">
+            <tr>
+              <th>Product</th>
+              <th>Unit Price</th>
+              <th>Quantity </th>
+              <th>Total Price</th>
+              <th>Remove to cart</th>  
+            </tr>
+            <tr>
+              <td>Sugar</td>
+              <td>4000</td>
+              <td><input type="number" id="cart-no" placeholder="7"></td>
+              <td>5</td>
+              <td>Remove</td>
+            </tr>
+            <tr>
+                  <td>Soda</td>
+                  <td>1000</td>
+                  <td><input type="number"id="cart-no" placeholder="7"></td>
+                  <td>10</td>
+                  <td>Remove</td>
+            </tr>
+            <tr>
+                  <td>Book</td>
+                  <td>300</td>
+                  <td><input type="number" id="cart-no" placeholder="7"></td>
+                  <td>5</td>
+                  <td>Remove</td>
+            </tr>   
+          </table>
+        </div>
+        <div id="cart-actions">
+                <button type="submit" id="btn-create-sale">CREATE SALE</button>  
+                <button type="submit" id="btn-empty-cart">EMPTY CART</button> 
+
+          </div>
+          <footer>
+                &copy; Store Manger 2018
+            </footer>
+</body>
+</html>

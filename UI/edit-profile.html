@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <title>Edit Profile</title>
+    <script type="text/javascript" src="./javascript/store.js"></script>
+</head>
+<body>
+        <header class="invent-head">
+                <nav>
+                    <ul>
+                        <li><a href="att-invent.html">Inventory</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="att-sales.html">My Sales</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                            <p>Attendant</p>
+                    </ul>
+                </nav>
+                <p><a href="index.html">LOG OUT</a></p>
+            </header>
+
+            <div class="container">
+                 <div class="login-container">
+                   
+                     <form name="store-login">
+                            <h2>Edit Your Profile</h2>
+                        <label>User Name</label>
+                        <input type="text" required placeholder="Enter your password" name = 'valid_user'>
+                         
+                        <label>Password</label>
+                        <input type="password" id="pass-confirm" required placeholder="*********">
+
+                        <label>Confirm password</label>
+                        <input type="password" id="pass-confirm" required placeholder="*********">
+                        <label>Show Password</label>
+                        <br>
+                        <input type="checkbox" onclick="passVisibility()">  
+
+                        <label>Email</label>
+                        <input type="email" required placeholder="me@gmail.com">
+
+                        <label>Phone number</label>
+                        <input type="tel" required placeholder="07966734">
+                         
+                        <button type="submit">SAVE</button>
+                        
+                    </form>
+                </div>
+                <footer>
+                        &copy; Store Manger 2018
+                    </footer>
+    
+</body>
+</html>
