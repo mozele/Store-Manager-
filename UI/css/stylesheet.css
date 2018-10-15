@@ -36,13 +36,45 @@ a{
 }
 
 footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:darkgray;
+   color: white;
+   text-align: center;
+   height: 50px;
+   color: wheat;
+   font-size: 30px;
+}
+
+.profile-head{
     background-color: darkgray;
     overflow: hidden;
+    position: relative;
     width: 100%;
-    color: wheat;
+}
+.profile-head a{
+    float: left;
+    padding: 10px 30px 10px 30px;
+    color: cornsilk;
+    font-size: 20px;
     text-align: center;
-    font-size: 30px;   
-    height: 80px; 
+
+}
+.profile-head p{
+    float: right;
+    color:white;
+    margin: 0 60px 5px 0;
+    font-size: 30px;
+    padding-bottom: 5px;    
+       
+}
+.profile-head p a{
+    text-transform: capitalize;
+    color: red;
+    
+    font-weight: 30px;
 }
 
 
@@ -82,6 +114,14 @@ footer{
 .login-container form  a{
     text-align: center;
     padding-left: 150px;
+}
+.p-logo{
+    text-align: center;
+    text-transform: initial;
+    color: darkgreen;
+    font-style: italic;
+    font-weight: 5px;
+    font-size: 5    0px;
 }
 
 /*Inventory page*/
@@ -138,6 +178,11 @@ footer{
     padding: 20px;
     
 }
+#tab-head{
+    text-align: center;
+    margin: 40px;
+}
+
 #invent-table th{
     padding: 20px;
     background: rgb(221, 177, 177);
@@ -150,6 +195,7 @@ footer{
 #search-table{
     width: 100%;
     margin-left: 21px;
+    padding-top: 70px;  
 }
 #invent-search{
     width:75%;
@@ -208,8 +254,8 @@ margin: 2px 6px;
 
 
 
-/*product-mgt.html*/
-.btn-create-pdt{
+/*Stock*/
+#btn-add-item{
     width: 20%;
     height: 40px;
     border-radius: 10px;
@@ -218,7 +264,7 @@ margin: 2px 6px;
     padding: 5px;
     margin: 2px 6px;
 }
-.btn-del-pdt{ width: 20%;
+#btn--rmv-item{ width: 20%;
     height: 40px;
     border-radius: 10px;
     background: red;
@@ -228,7 +274,7 @@ margin: 2px 6px;
 
 
 }
-.btn-edit-pdt{
+#btn--edit-item{
     width: 20%;
     height: 40px;
     border-radius: 10px;
@@ -238,4 +284,38 @@ margin: 2px 6px;
     margin: 2px 6px;
     
 }
-/*admin pages*/
+/*responsiveness*/
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: rgba(137, 43, 226, 0.11);
+        min-width: 1167px;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+    header.invent-head{
+        background-color: darkgray;
+        overflow: auto;
+        position: fixed;
+        font-size: 20px;
+        width: 20%;
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /*container*/
+.container{
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+}
