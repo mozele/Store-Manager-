@@ -85,6 +85,7 @@ footer{
     width: 40%;
     padding: 30px;
     margin: 100px 350px;
+    border-radius: 20px;
 }
 .login-container form h2{
     text-align: center;
